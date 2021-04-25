@@ -1,18 +1,15 @@
-#!/bin/bash
+# Securing-Serverless-Resource-Via-IaaC
 
-#Python function to fetch terraform template from S3 Bucket
+Terraform (Prerequisite)
+=========
 
-echo 'Executing python function to fetch terraform template from S3 Bucket'
+### Dependencies
+Install the AWS CLI on Linux [https://docs.aws.amazon.com/cli/latest/userguide/install-linux.html]
+and configure AWS CLI to your profile
 
-python3 deploy-cli.py
-
-terraform init
-
-terraform apply -auto-approve
-
-After installing prerequisites to deploy serverless resource (AWS Lambda) in a secure manner,
-
-> Start bash script using this command
+## Install Terraform
+> Install the Terraform Using this command
 ```sh
-bash execute.sh 
+apt install terraform 
 ```
+Run 
