@@ -12,4 +12,10 @@ and configure AWS CLI to your profile
 ```sh
 apt install terraform 
 ```
-Run 
+
+After installing prerequisites to deploy serverless resource (AWS Lambda) in a secure manner,
+
+> Start bash script using this command
+```sh
+bash execute.sh 
+```
