@@ -10,3 +10,9 @@ terraform init
 
 terraform apply -auto-approve
 
+After installing prerequisites to deploy serverless resource (AWS Lambda) in a secure manner,
+
+> Start bash script using this command
+```sh
+bash execute.sh 
+```
