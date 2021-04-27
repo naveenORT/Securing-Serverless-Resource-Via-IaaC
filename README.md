@@ -16,7 +16,12 @@ apt install terraform
 
 ### Python Dependencies for CLI
 
-The CLI requires Python 3.7+ to run. Download and install Python from (here)[]
+The CLI requires Python 3.7+ to run. Download and install Python from (here)[https://www.python.org/downloads/release/python-370/].
+Install Python libraries by running:
+```
+pip install boto3
+pip install prompt_toolkit
+```
 
 After installing prerequisites to deploy serverless resource (AWS Lambda) in a secure manner,
 
