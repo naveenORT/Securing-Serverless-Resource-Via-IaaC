@@ -49,14 +49,14 @@ if __name__ == '__main__':
         num = num + 1
 
     # Choose a number to download the template and have it ready for terraform
-    choice = prompt('Make a selection. Hint: Choose the number to be deployed: ')
+    choice = prompt('Make a selection - for the resource to be deployed: \n')
 
     # Download the file as demo.txt - this can be replaced with the filename or can be kept static
     # to allow only one copy of the template/code to reside locally
     my_bucket.download_file(dir_contents[int(choice)], 'main.tf')
-    my_bucket.download_file(dir_contents[int(choice)], 'vars.tf')
+    # my_bucket.download_file(dir_contents[int(choice)], 'vars.tf')
     
     print('Config Downloaded!')
 
     # Add Terraform commands here in os.system to allow execution of bash commands
-    # os.system('echo hello')
+    # os.system('bash execute.sh')
